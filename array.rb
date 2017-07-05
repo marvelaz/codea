@@ -24,7 +24,7 @@ b =* (1..10)
 c =* (1..5)
 
 c.each do |x|
-  b.each do |y|
+  b.each_with_index do |y,index|
     a = y * x
     print "#{a}" + "  "
   end
