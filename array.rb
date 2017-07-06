@@ -19,6 +19,7 @@ array.each do |x|
         end
         i += 1
 end
+###########################
 a = 0
 b =* (1..10)
 c =* (1..5)
@@ -29,4 +30,18 @@ c.each do |x|
     print "#{a}" + "  "
   end
   print "\n"
+end
+
+###########################
+def user(input)
+  i = 0
+  while input.downcase != "ya"
+    input = [(print '> '), gets.rstrip][1]
+    i += 1
+  end
+   puts "numero de entradas #{i}"
+ end
+###########################
+x.each_pair do  |k,v|
+ final_hash[k] = v
 end
