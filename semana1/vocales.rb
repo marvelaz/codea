@@ -1,4 +1,4 @@
-#Removiendo vocales 
+#Removiendo vocales
 def vowels(a)
   a.each do |x|
     x.gsub!(/[aeiou]/, '')
