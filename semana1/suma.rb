@@ -1,4 +1,4 @@
-#suma de numeros 
+#suma de numeros
 def get_sum(a,b)
   if a == b then
     return a
@@ -7,6 +7,7 @@ def get_sum(a,b)
   else
     sum =* (a..b)
   end
+  #suma del array
   sum.inject(:+)
 end
 
