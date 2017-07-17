@@ -1,0 +1,15 @@
+#ejemplo1 li a {
+  color: blue;
+}
+
+#ejemplo2 li a {
+  color: green;
+}
+
+#ejemplo2 li em a{
+  color: black;
+}
+
+a[class="menu"] {
+  color: green;
+}
